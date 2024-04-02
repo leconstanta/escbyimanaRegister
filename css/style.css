@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+main{
+  background: url('images/backgound.jpg') rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 12;
+}
+
+
+@media(max-width: 991px) {
+  .sidebar{
+      background-color: rgba(255, 255, 255, 0.291);
+      backdrop-filter: blur(10px);
+  }
+  .esc {
+    font-size: 1.9rem;
+  }
+}
+.nav-item a{
+  color: black;
+  padding: 15px 10px;
+	color: rgba(7, 4, 4, 0.829);
+	transition: 0.5s;
+  
+}
+.nav-item a:hover{
+  color: rgba(46, 46, 229, 0.614);
+  border-bottom: 1.4px solid #264b8fb6;
+  transition: 0.25s; 
+}
+
+.nav-link,.about{
+  font-size: 17.5px;
+}
+.ByimanaLogo {
+  height: 50px;
+  width: 60px;
+  object-fit: contain;
+  margin-left: 8px;
+}
+
+.consience{
+  color: #FFFFFFAD;
+  font-size: 20px;
+}
+.card{
+  height: 300px;
+  line-height: 19px;
+}
+p{
+  font-size: 15px;
+}
+.card1{
+  background: #c9b1e8;
+}
+.cardp1{
+  color: rgba(40, 124, 124, 0.94);
+  font-weight: 600;
+}
+.card2{
+  background:  #8AAAE5;
+}
+.cardp2{
+  color: rgb(17, 56, 3);
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card3{
+  background: #e07f4f;
+}
+.cardp3{
+  color: rgba(40, 124, 124, 0.94);
+  font-weight: 600;
+}
+
+footer{
+  background: #000000D9;
+}
+i{
+  margin-right: 10px;
+  font-size: 20px;
+}
+.hfoot{
+  font-size: 12px;
+  font-family :"Source Sans Pro", Arial, sans;
+}
+.fotrprag{
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "soure sans pro", Arial, sans-serif;
+}
+
+.link{
+  color: #DBDBDB80;
+  cursor: pointer;
+  font-family :"Source Sans Pro", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.arrow{
+  color: #848387d0;
+}
+.missimg,.visimg,.goldimg,.valimg{
+  height: 70px;
+  width: 70px;
+}
+.mark{
+  height: 120px;
+  width: 170px;
+  background: none;
+}

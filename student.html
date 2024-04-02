@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escbyimana Registration platform">
+    <meta name="author" content="Muhirwe Leo Constantin">
+
+    <!--bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!--bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+
+    <!--Bootstrap icon-->
+    <!-- Option 1:  Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/student.css">
+    <title>ESC BYIMANA | Register</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/byimanalogo.png" type="image/x-icon">
+
+</head>
+
+<body class="vh-100 bg-dark">
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg  bg-white">
+        <div class="container">
+            <!--Logo-->
+            <div>
+                <img src="images/byimanalogo.png" title="Byimana Logo" loading="lazy" class="ByimanaLogo">
+                <a class="navbar-brand text-black" href="#" style="font-size: 22px;">
+                    ESC BYIMANA
+                </a>
+            </div>
+            
+
+            <!--toggler btn-->
+            <button 
+            class="navbar-toggler shadow-none "
+            style="background: transparent;
+            font-size: 15px;
+            " 
+            type="button" 
+            data-bs-toggle="offcanvas" 
+            data-bs-target="#offcanvasNavbar" 
+            aria-controls="offcanvasNavbar" 
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <!--sidebar-->
+            <div class="sidebar offcanvas offcanvas-start" 
+                tabindex="-1" 
+                id="offcanvasNavbar" 
+                aria-labelledby="offcanvasNavbarLabel"
+            >
+            <!--sidebar header-->
+            <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"
+            style="font-size: 17px;">
+                Ecole Des Science Byimana
+            </h5>
+            <button 
+                type="button" 
+                class="btn-close btn-close-black shadow-none" 
+                data-bs-dismiss="offcanvas" 
+                aria-label="Close"
+            ></button>
+            </div>
+
+            <!--sidebar body-->
+            <div class="offcanvas-body d-flex 
+            flex-column flex-lg-row p-4 p-lg-0">
+            <ul class="navbar-nav justify-content-center 
+            align-items-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link active" style="color: rgba(46, 46, 229, 0.762);" href="student.html">Student</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="admin.html">Adminstration</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="https://escbyimana.co.rw/#email-form">Contact us</a>
+                </li>
+            
+            </ul>
+            <div class="d-flex flex- flex-lg-row align-items-center justify-content-center gap-3">
+                <a href="https://escbyimana.co.rw/Aboutus.html" class="text-black about" style="font-family: Poor Richard;">About us</a>
+                <a href="https://escbyimana.co.rw/" class="text-black text-decoration-none
+                px-3 py-1 rounded-2 about" style="background-color: rgba(172, 171, 171, 0.276); font-family: Poor Richard;">visit</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!--main-->
+    <section class="container-fluid">
+        <div class="login-box my-5 text-start container">
+            <form action="" class="mx-3">
+                <h2 class="text-white text-center mb-3 mt-4">Personal Information</h2>
+                <hr class="text-warning">
+                
+                <div class="input-group bg-dark mb-3 mt-5 input-box">
+                    <span class="input-group-text"><i class="bi bi-person-badge-fill"></i></span>
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                      <label for="floatingInputGroup1">Username</label>
+                    </div>
+                </div>
+
+                <div class="form-floating mb-3 input-box">
+                    <select class="form-select form-select-sm" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Choose Your Gender</option>
+                      <option value="1">Male</option>
+                      <option value="2">Female</option>
+                    </select>
+                    <label for="floatingSelect">Gender</label>
+                </div>
+
+                <div class="mb-3 input-box">
+                    <label for="text" class="form-label text-white">Date of Birth</label>
+                    <input type="date" class="form-control" name="dob" required>
+                </div>
+
+                <div class="input-group mb-3 input-box">
+                    <span class="input-group-text"><i class="bi bi-flag-fill"></i></span>
+                    <div class="form-floating">
+                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                      <label for="floatingInputGroup1">Nationality</label>
+                    </div>
+                </div>
+
+                <div class="form-floating mb-3 input-box">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+
+                <div class="form-floating mb-3 input-box">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="your disability ,ex: blind">
+                    <label for="floatingInput">Disability</label>
+                </div>
+
+                <div class="mb-3 input-box">
+                    <label  class="form-label text-white">Official Paper</label><br>
+                    <input type="radio" name="op" value="Passport"><span class="text-white" style="margin-right: 15px;">Passport</span>
+                    <input type="radio" name="op" value="National ID"><span class="text-white" style="margin-right: 15px;">National ID</span>
+                    <input type="radio" name="op" value="Driving License"><span class="text-white" style="margin-right: 15px;">Driving License</span>
+                    <input type="radio" name="op" value="None"><span class="text-white">None</span>
+                </div>
+
+                <div class="form-floating mb-3 input-box">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="Enter your official paper number">
+                    <label for="floatingInput">Official Paper Number</label>
+                </div>
+
+                <button type="submit" class="w-100 bg-white my-3">
+                    <a href="form2.html" class="text-decoration-none text-dark">Next</a></button>
+
+                <div class="text-center text-white">
+                    <p><i class="bi bi-hand-thumbs-up"></i><a href="form2.html" class="text-decoration-none text-white">Next</a>
+                        Thank you for registering your personal information ?
+                        <i class="bi bi-hand-thumbs-up"></i>
+                    </p>
+                    <p class="text-warning">1/5</p>
+                </div>
+                
+            </form>
+        </div>
+
+    </section>
+    
+
+    <!--footer-->
+    <footer class="text-white pt-5 pb-4 position-relative">
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto text-sm-start mt-3">
+                    <h5 class="text-uppercase mb-3 text-white fw-bold text-sm-start hfoot">
+                        Esc Byimana
+                    </h5>
+                    <p class="fotrprag">
+                        "Providing inclusive and wholistic education grounded
+                        in christian values enabling our student to be good
+                        christians and good citizens"
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-6 col-md-push-1  text-sm-start mt-3">
+                    <h5 class="text-uppercase mb-3 text-white fw-bold text-sm-start hfoot">
+                        QUICK LINKS
+                    </h5>
+
+                    <ul class="footer-links list-unstyled">
+                    <li>
+                        <a href="index.html" class="text-white link" style="text-decoration: none;">Home</a>
+                    </li>
+                    <li>
+                        <a href="student.html" class="text-white link" style="text-decoration: none;">Student</a>
+                    </li>
+                    <li>
+                        <a href="admin.html" class="text-white link" style="text-decoration: none;">Administration</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-white link" style="text-decoration: none;">About</a>
+                    </li>
+                    </ul>
+
+                </div>
+ 
+                <div class="col-md-4 col-sm-4 col-xs-6 col-md-push-1 text-sm-start mt-3">
+                    <h5 class="text-uppercase mb-3 text-white fw-bold hfoot">
+                        Contacts
+                    </h5>
+                    <ul class="list-unstyled">
+                        <li class="list-item">
+                            <a href="https://twitter.com/EscByimana" target="_blank"  
+                            class="btn-floating btn-sm text-white text-decoration-none link"
+                            ><i class="bi bi-twitter">@EscByimana</i></a>
+                        </li>
+                        <li class="list-item">
+                            <a href="https://rw.linkedin.com/in/ecole-byimana-337a09167" target="_blank" 
+                            class="btn-floating btn-sm text-white text-decoration-none link"
+                            ><i class="bi bi-linkedin"></i>Ecole Byimana</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" 
+                            class="btn-floating btn-sm text-white text-decoration-none link"
+                            ><i class="bi bi-google"></i>escbyimana@gmail.com</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/channel/UCkQNI83wTS5zKyK62lcjKgA" target="_blank" 
+                            class="btn-floating btn-sm text-white text-decoration-none link"
+                            ><i class="bi bi-youtube"></i>ESC Byimana</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+              
+            <hr class="mb-4">
+
+            <div class="align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>&copy; 2025 Ecole Des Science Byimana All Rights Reserved.
+                        <a href="#" class="position-absolute bottom-0 end-0 p-5 text-warning">
+                            <i class="bi bi-arrow-up-circle h1 arrow"></i>
+                        </a>
+                    </p>
+                </div>
+
+            </div>
+            <div class="align-items-center p-5">
+                <!-- <p>Designed BY</p>
+                <img src="images/logo(1).png" alt="" class="mark"> -->
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
