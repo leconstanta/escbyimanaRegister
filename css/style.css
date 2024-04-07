@@ -64,7 +64,7 @@ p{
   font-size: 15px;
 }
 .card1{
-  background: linear-gradient(220.55deg, #7CF7FF 0%, #4B73FF 100%);
+  /* background: linear-gradient(220.55deg, #7CF7FF 0%, #4B73FF 100%); */
 }
 .cardp1,.cardp2,.cardp3,.cardp4 {
   border-left: 2px solid indigo;
@@ -80,7 +80,7 @@ p{
 }
 
 .card2{
-  background: linear-gradient(220.55deg, #FFED46 0%, #FF7EC7 100%);
+  background: linear-gradient(220.55deg, #e646ff30 0%, #FF7EC7 100%);
 }
 .cardp2 p{
   color: rgb(17, 56, 3);
@@ -88,7 +88,7 @@ p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card3{
-  background: linear-gradient(220.55deg, #FFD439 0%, #FF7A00 100%);
+  background: linear-gradient(220.55deg, #FFD439 0%, #ff7b0053 100%);
 }
 
 .cardp3 p{
@@ -96,12 +96,12 @@ p{
   font-weight: 600;
 }
 .card4{
-  background: linear-gradient(220.55deg, #565656 0%, #181818 100%);
+  /* background: linear-gradient(220.55deg, #565656 0%, #181818 100%); */
 }
 .cardp4 p{
-  color: rgba(255, 255, 255, 0.94);
+  color: rgba(86, 85, 85, 0.94);
   font-weight: 600;
-  line-height: 25px;
+  line-height: 20px;
 }
 .card-body{
   display: grid;
@@ -188,6 +188,6 @@ i{
 }
 
 .spinner-grow{
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
 }
