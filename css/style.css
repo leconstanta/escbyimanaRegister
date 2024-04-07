@@ -64,7 +64,7 @@ p{
   font-size: 15px;
 }
 .card1{
-  /* background: linear-gradient(220.55deg, #7CF7FF 0%, #4B73FF 100%); */
+  background: #fff;
 }
 .cardp1,.cardp2,.cardp3,.cardp4 {
   border-left: 2px solid indigo;
@@ -96,7 +96,7 @@ p{
   font-weight: 600;
 }
 .card4{
-  /* background: linear-gradient(220.55deg, #565656 0%, #181818 100%); */
+  background: #fff;
 }
 .cardp4 p{
   color: rgba(86, 85, 85, 0.94);
