@@ -115,13 +115,14 @@
 
     <!--main-->
     <section class="container-fluid">
-        <div class="login-box my-5 text-start container">
+        <div class="studentForm1 my-5 text-start container">
             <form action="" class="mx-3">
 
-                <h2 class="text-white text-center mb-3 mt-4">Birth Details</h2>
-                <hr class="text-warning">
+                <h2 class="text-center mb-3 mt-4">Birth Details</h2>
+                <div class="form1h"></div>
                 
-                <label for="exampleDataList" class="form-label text-white mt-5">Province</label>
+                <!-- province -->
+                <label for="exampleDataList" class="form-label text-dark mt-5">Province</label>
                 <input class="form-control mb-3" list="datalistOptions" id="exampleDataList" placeholder="Type province here to search...">
                 <datalist id="datalistOptions">
                     <option value="Kigali city">
@@ -131,30 +132,34 @@
                     <option value="Western Province">
                 </datalist>
 
+                <!-- district -->
                 <div class="form-floating mb-3 input-box">
                     <input type="text" class="form-control" id="floatingInput" placeholder="Gasabo#example">
                     <label for="floatingInput">District</label>
                 </div>
 
+                <!-- sector -->
                 <div class="form-floating mb-3 input-box">
                     <input type="text" class="form-control" id="floatingInput" placeholder="kimironko#example">
                     <label for="floatingInput">Sector</label>
                 </div>
 
+                <!-- cell -->
                 <div class="form-floating mb-3 input-box">
                     <input type="text" class="form-control" id="floatingInput" placeholder="kimironko#example">
                     <label for="floatingInput">Cell</label>
                 </div>
 
+                <!-- village -->
                 <div class="form-floating mb-3 input-box">
                     <input type="text" class="form-control" id="floatingInput" placeholder="kimironko#example">
                     <label for="floatingInput">Village</label>
                 </div>
 
-                <button type="submit" class="w-100 bg-white my-3">
-                    <a href="form2.html" class="text-decoration-none text-dark">Next</a></button>
+                <button type="submit" class="w-100 bg-dark my-3">
+                    <a href="form2.html" class="text-decoration-none text-white">Next</a></button>
 
-                <div class="text-center text-white">
+                <div class="text-center text-black">
                     <p><i class="bi bi-hand-thumbs-up"></i><a href="form3.html" class="text-decoration-none text-white">Next</a>
                         Thank you for registering your birth details information ?
                         <i class="bi bi-hand-thumbs-up"></i>
