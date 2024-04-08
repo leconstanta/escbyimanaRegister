@@ -125,7 +125,7 @@
     <section class="container-fluid">
         <div class="studentForm1 my-5 text-start container">
             <form action="" class="mx-3">
-                <h2 class=" text-center mb-3 mt-4">Personal Information</h2>
+                <h2 class=" text-center mb-3 mt-4">STUDENT VERIFICATION PAGE</h2>
                 <div class="form1h"></div>
                 
                 <!-- name -->
@@ -137,67 +137,24 @@
                     </div>
                 </div>
 
-                <!-- gender -->
+
+                <!-- id -->
                 <div class="form-floating mb-3 input-box">
-                    <select class="form-select form-select-sm" id="floatingSelect" aria-label="Floating label select example">
-                      <option selected>Choose Your Gender</option>
-                      <option value="1">Male</option>
-                      <option value="2">Female</option>
-                    </select>
-                    <label for="floatingSelect">Gender</label>
-                </div>
-
-                <!-- DOB -->
-                <div class="mb-3 input-box">
-                    <label for="text" class="form-label text-black">Date of Birth</label>
-                    <input type="date" class="form-control" name="dob" required>
-                </div>
-
-                <!-- Nationality -->
-                <div class="input-group mb-3 input-box">
-                    <span class="input-group-text"><i class="bi bi-flag-fill"></i></span>
-                    <div class="form-floating">
-                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
-                      <label for="floatingInputGroup1">Nationality</label>
-                    </div>
-                </div>
-
-                <!-- Email -->
-                <div class="form-floating mb-3 input-box">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
-                </div>
-
-                <!--disability  -->
-                <div class="form-floating mb-3 input-box">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="your disability ,ex: blind">
-                    <label for="floatingInput">Disability</label>
-                </div>
-
-                <!-- official paper -->
-                <div class="mb-3 input-box">
-                    <label  class="form-label text-dark">Official Paper</label><br>
-                    <input type="radio" name="op" value="Passport"><span class="" style="margin-right: 15px;">Passport</span>
-                    <input type="radio" name="op" value="National ID"><span class="" style="margin-right: 15px;">National ID</span>
-                    <input type="radio" name="op" value="Driving License"><span class="" style="margin-right: 15px;">Driving License</span>
-                    <input type="radio" name="op" value="None"><span class="">None</span>
-                </div>
-
-                <!-- official No -->
-                <div class="form-floating mb-3 input-box">
-                    <input type="number" class="form-control" id="floatingInput" placeholder="Enter your official paper number">
-                    <label for="floatingInput">Official Paper Number</label>
+                    <input type="number" class="form-control" id="floatingInput" placeholder="Enter your student number">
+                    <label for="floatingInput">
+                        Student Number <span>(used in national exam)</span>
+                    </label>
                 </div>
 
                 <button type="submit" class="w-100 bg-dark my-3">
-                    <a href="form2.html" class="text-decoration-none text-white">Next</a></button>
+                    <a href="student.html" class="text-decoration-none text-white">Submit</a>
+                </button>
 
                 <div class="text-center text-dark">
-                    <p><i class="bi bi-hand-thumbs-up"></i><a href="form2.html" class="text-decoration-none text-white">Next</a>
-                        Thank you for registering your personal information ?
-                        <i class="bi bi-hand-thumbs-up"></i>
+                    <p><i class="bi bi-exclamation-octagon"></i><a href="student.html" class="text-decoration-none text-black">Next</a>
+                        This is done to verify whether you have been sent here ?
+                        <i class="bi bi-exclamation-octagon"></i>
                     </p>
-                    <p class="text-warning">1/5</p>
                 </div>
                 
             </form>
