@@ -130,7 +130,7 @@
                 <div class="input-group bg-white mb-3 mt-5 input-box">
                     <span class="input-group-text"><i class="bi bi-person-badge-fill"></i></span>
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username"  maxlength="45">
                       <label for="floatingInputGroup1">Username</label>
                     </div>
                 </div>
@@ -155,20 +155,20 @@
                 <div class="input-group mb-3 input-box">
                     <span class="input-group-text"><i class="bi bi-flag-fill"></i></span>
                     <div class="form-floating">
-                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username" maxlength="10">
                       <label for="floatingInputGroup1">Nationality</label>
                     </div>
                 </div>
 
                 <!-- Email -->
                 <div class="form-floating mb-3 input-box">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" maxlength="40">
                     <label for="floatingInput">Email address</label>
                 </div>
 
                 <!--disability  -->
                 <div class="form-floating mb-3 input-box">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="your disability ,ex: blind">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="your disability ,ex: blind"  maxlength="40">
                     <label for="floatingInput">Disability</label>
                 </div>
 
@@ -183,9 +183,10 @@
 
                 <!-- official No -->
                 <div class="form-floating mb-3 input-box">
-                    <input type="number" class="form-control" id="floatingInput" placeholder="Enter your official paper number">
+                    <input type="text" max="9" maxlength="17" minlength="15" class="form-control">
                     <label for="floatingInput">Official Paper Number</label>
                 </div>
+
 
                 <button type="submit" class="w-100 bg-dark my-3">
                     <a href="form2.html" class="text-decoration-none text-white">Next</a></button>
