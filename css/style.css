@@ -78,7 +78,7 @@ p{
   box-shadow: 0 0 30px 0px rgba(241, 242, 244, 0.966);
 }
 .cardp1,.cardp2,.cardp3,.cardp4 {
-  border-left: 1.7px solid rgba(220, 163, 255, 0.851);
+  /* border-left: 1.7px solid rgba(220, 163, 255, 0.851); */
   height: 100%;
   width: 100%;
   display: flex;
