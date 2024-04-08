@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
 
     setTimeout(() => {
     spinnerWrapperEl.style.display = 'none';
-    }, 2500);
+    }, 2000);
 });
    
 
