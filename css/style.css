@@ -74,10 +74,11 @@ p{
   font-size: 15px;
 }
 .card1{
-  background: #fff; 
+  background: linear-gradient(-220.55deg, #e9e9e9 50%, #fff 50%);
+  box-shadow: 0 0 30px 0px rgba(241, 242, 244, 0.966);
 }
 .cardp1,.cardp2,.cardp3,.cardp4 {
-  border-left: 2px solid indigo;
+  border-left: 1.7px solid rgba(220, 163, 255, 0.851);
   height: 100%;
   width: 100%;
   display: flex;
@@ -91,6 +92,7 @@ p{
 
 .card2{
   background: linear-gradient(220.55deg, #FF7EC7 50%, #fff 50%);
+  box-shadow: 0 0 30px 0px rgba(243, 64, 246, 0.788);
 }
 .cardp2 p{
   color: rgb(17, 56, 3);
@@ -98,7 +100,8 @@ p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .card3{
-  background: linear-gradient(220.55deg, #FFD439 50%, #fff 50%);
+  background: linear-gradient(220.55deg, #fff 50%, #FFD439 50%);
+  box-shadow: 0 0 30px 0px rgba(244, 244, 137, 0.848);
 }
 
 .cardp3 p{
@@ -106,7 +109,8 @@ p{
   font-weight: 600;
 }
 .card4{
-  background: #fff;
+  background: linear-gradient(140.55deg, #fff 50%, #e9e9e9 50%);
+  box-shadow: 0 0 30px 0px rgba(241, 242, 244, 0.966);
 }
 .cardp4 p{
   color: rgba(86, 85, 85, 0.94);
@@ -172,7 +176,9 @@ i{
   font-weight: 300;
 }
 .arrow{
-  color: #848387d0;
+  color: #ffffffd0;
+  font-size: 40px;
+
 }
 .missimg,.visimg,.goldimg,.valimg{
   height: 70px;
