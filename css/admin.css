@@ -15,7 +15,12 @@ section{
     height: 100vh;
 }
 .loginInterface{
-    background: linear-gradient(to left, #fff 50%, #292423 50%);
+ background: url('images/backgound.jpg') rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+    /* background: linear-gradient(to left, #fff 50%, #292423 50%); */
     /* background: linear-gradient(to right, #f87f73 50%, #292423 50%); */
 }
 .login-box{
